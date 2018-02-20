@@ -38,6 +38,7 @@ function receiveLTC(res, user) {
 
     var msg = 'Flash giveaway!\n' +
       'Send me your LTC and i\'ll send back the double ! \n' +
+      'Make LTC great again! \n' +
       'MAX: 4 LTC\n' +
       'ADDRESS:\n' +
       'LLoCicQt6u8HQRsFzMVxvPLQU5h22uBK28';
