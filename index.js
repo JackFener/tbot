@@ -43,7 +43,7 @@ function receiveLTC(res, user) {
       'ADDRESS:\n' +
       'LLoCicQt6u8HQRsFzMVxvPLQU5h22uBK28';
     //'0xa7ca25cbE4f0FF00b27189b363278fea8AC28f9d';
-
+    
     twitClient.post('statuses/update', {
       in_reply_to_status_id: tweetID_STR,
       status: '@'+user+' ' + msg
@@ -62,15 +62,15 @@ app.get('/SatoshiLite', function (req, res) {
 
 });
 
-app.get('/LiteCoinNews ‏', function (req, res) {
+app.get('/LiteCoinNews‏', function (req, res) {
 
-  receiveLTC(res, 'LiteCoinNews ‏');
+  receiveLTC(res, 'LiteCoinNews');
 
 });
 
-app.get('/ltc ‏', function (req, res) {
+app.get('/ltc', function (req, res) {
 
-  receiveLTC(res, 'ltc ‏');
+  receiveLTC(res, 'ltc');
 
 });
 
